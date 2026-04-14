@@ -1,57 +1,75 @@
-/* Estilos para la barra de navegación */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    padding: 1rem 2rem;
-    color: white;
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Estilos para el logo y nombre de la tienda */
-.nav-logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: linear-gradient(135deg, #ff3300 0%, #ff6600 100%);
+  min-height: 100vh;
 }
 
-.nav-logo img {
-    width: 40px;
-    height: 40px;
+#root {
+  min-height: 100vh;
 }
 
-.store-name {
-    font-size: 1.2rem;
-    font-weight: bold;
+.App {
+  text-align: center;
 }
 
-/* Estilos para los enlaces */
-.nav-links {
-    display: flex;
-    gap: 20px;
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
 }
 
-.nav-link {
-    color: white;
-    text-decoration: none;
-    padding: 5px 10px;
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
 }
 
-.nav-link:hover {
-    background-color: #555;
-    border-radius: 5px;
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-/* Estilos para el carrito */
-.cart-button {
-    background-color: #ff6600;
-    color: white;
-    border: none;
-    padding: 8px 15px;
-    border-radius: 5px;
-    cursor: pointer;
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-.cart-button:hover {
-    background-color: #ff5500;
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
 }
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+h3 {
+  font-size: 30px;
+  color: white;
+}
+p {
+  font-size: 20px;
+  color: white;
+}
+
+
+
+
+
+
+
+

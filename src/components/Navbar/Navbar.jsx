@@ -1,4 +1,5 @@
-import CartWidget from "./CartWidget";
+import CartWidget from "../CartWidget/CartWidget";
+import './Navbar.css'
 
 function Navbar() {
     return (
@@ -7,11 +8,11 @@ function Navbar() {
                 <div className="nav-logo">
                     <img src="/img/logo.png" alt="Imagen Logo" />
                 </div>
-                <div className="nav-links">
-                    <a className="nav-link" href="##">Inicio</a>
-                    <a className="nav-link" href="##">Categorias</a>
-                    <a className="nav-link" href="##">Contacto</a>
-                </div>
+                <ul className="nav-links">
+                    <li className="nav-link" >Inicio</li>
+                    <li className="nav-link" >Categorias</li>
+                    <li className="nav-link" >Contacto</li>
+                </ul>
                 <div>
                     <CartWidget />
                 </div>

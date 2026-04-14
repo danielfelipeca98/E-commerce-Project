@@ -1,0 +1,162 @@
+[
+    {   
+        "id": 1,
+        "title": "Skateboard Completa Dragon",
+        "description": "Tabla de maple canadiense con diseño de dragón tribal, ejes de aluminio y ruedas de 52mm",
+        "precio": 89990,
+        "stock": 12,
+        "img": "/img/skate-dragon.jpg"
+    },
+    {   
+        "id": 2,
+        "title": "Tinta para Tatuaje Negro Intenso",
+        "description": "Tinta negra premium para tatuajes, pigmentación duradera y alta calidad profesional",
+        "precio": 24990,
+        "stock": 45,
+        "img": "/img/tinta-negra.jpg"
+    },
+    {   
+        "id": 3,
+        "title": "Grip Tape Skull",
+        "description": "Lija para skate con diseño de calavera, antideslizante y resistente al agua",
+        "precio": 15990,
+        "stock": 28,
+        "img": "/img/grip-skull.jpg"
+    },
+    {   
+        "id": 4,
+        "title": "Maquina de Tatuar Rotary",
+        "description": "Máquina rotativa profesional, silenciosa y precisa para lineas y sombreado",
+        "precio": 149990,
+        "stock": 8,
+        "img": "/img/maquina-rotary.jpg"
+    },
+    {   
+        "id": 5,
+        "title": "Truck Independiente",
+        "description": "Ejes de aluminio fundido, altura estándar, ideal para calle y rampa",
+        "precio": 49990,
+        "stock": 20,
+        "img": "/img/truck.jpg"
+    },
+    {   
+        "id": 6,
+        "title": "Set de Agujas Tattoo",
+        "description": "Kit de 50 agujas estériles, tamaños del 3 al 14, empaque individual",
+        "precio": 19990,
+        "stock": 35,
+        "img": "/img/agujas.jpg"
+    },
+    {   
+        "id": 7,
+        "title": "Ruedas Street 52mm",
+        "description": "Ruedas duras 99a ideales para street, colores neón con diseño de llama",
+        "precio": 34990,
+        "stock": 18,
+        "img": "/img/ruedas-street.jpg"
+    },
+    {   
+        "id": 8,
+        "title": "Pintura Corporal UV",
+        "description": "Pintura fluorescente para tatuajes temporales, efecto neón bajo luz negra",
+        "precio": 12990,
+        "stock": 40,
+        "img": "/img/pintura-uv.jpg"
+    },
+    {   
+        "id": 9,
+        "title": "Casco Skate Clásico",
+        "description": "Casco resistente a impactos, tallas ajustable, diseño negro mate",
+        "precio": 59990,
+        "stock": 15,
+        "img": "/img/casco.jpg"
+    },
+    {   
+        "id": 10,
+        "title": "Kit de Stencil Tattoo",
+        "description": "Papel hectográfico y gel transferidor para stencil, incluye 20 hojas",
+        "precio": 15990,
+        "stock": 25,
+        "img": "/img/stencil.jpg"
+    },
+    {   
+        "id": 11,
+        "title": "Rodilleras Profesionales",
+        "description": "Protección de espuma y plástico duro, velcro ajustable para skate agresivo",
+        "precio": 39990,
+        "stock": 22,
+        "img": "/img/rodilleras.jpg"
+    },
+    {   
+        "id": 12,
+        "title": "Cremas para Tatuajes",
+        "description": "Set de crema hidratante y protector solar especial para tatuajes recientes",
+        "precio": 18990,
+        "stock": 30,
+        "img": "/img/cremas.jpg"
+    },
+    {   
+        "id": 13,
+        "title": "Longboard Drop Through",
+        "description": "Tabla longboard de bambú, ideal para cruising y downhill",
+        "precio": 159990,
+        "stock": 7,
+        "img": "/img/longboard.jpg"
+    },
+    {   
+        "id": 14,
+        "title": "Fuente de Poder Tattoo",
+        "description": "Fuente regulable para máquinas de tatuar, display digital y clip cord",
+        "precio": 89990,
+        "stock": 10,
+        "img": "/img/fuente.jpg"
+    },
+    {   
+        "id": 15,
+        "title": "Tool Kit Skate",
+        "description": "Herramienta multiusos para ajustar ejes y ruedas, incluye lija de repuesto",
+        "precio": 12990,
+        "stock": 50,
+        "img": "/img/toolkit.jpg"
+    },
+    {   
+        "id": 16,
+        "title": "Guantes de Tatuaje",
+        "description": "Caja con 100 guantes de nitrilo negro, talla M y L, sin polvo",
+        "precio": 24990,
+        "stock": 60,
+        "img": "/img/guantes.jpg"
+    },
+    {   
+        "id": 17,
+        "title": "Zapatillas Skate Pro",
+        "description": "Zapatillas de lona reforzada, suela de goma antideslizante, diseño urbano",
+        "precio": 69990,
+        "stock": 14,
+        "img": "/img/zapatillas.jpg"
+    },
+    {   
+        "id": 18,
+        "title": "Set de Fundas Tattoo",
+        "description": "Protectores desechables para maquina, grips y clip cord, pack de 50",
+        "precio": 9990,
+        "stock": 42,
+        "img": "/img/fundas.jpg"
+    },
+    {   
+        "id": 19,
+        "title": "Mochila para Skate",
+        "description": "Mochila resistente con correas para sujetar la tabla, bolsillos acolchados",
+        "precio": 45990,
+        "stock": 11,
+        "img": "/img/mochila.jpg"
+    },
+    {   
+        "id": 20,
+        "title": "Poster Flash Tattoo",
+        "description": "Póster con diseños de tatuajes clásicos americanos y tradicionales, 50x70cm",
+        "precio": 14990,
+        "stock": 33,
+        "img": "/img/poster-flash.jpg"
+    }
+] 
