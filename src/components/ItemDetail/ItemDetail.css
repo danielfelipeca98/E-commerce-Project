@@ -1,9 +1,5 @@
-.itemDetail{
-    width: 350px;
+.itemDetail-buttons{
     display: flex;
-    flex-direction: column;
+    gap: 10px;
     
-  
 }
-
-

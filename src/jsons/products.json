@@ -158,5 +158,165 @@
         "precio": 14990,
         "stock": 33,
         "img": "/img/poster-flash.jpg"
+    },
+    {   
+        "id": 21,
+        "title": "Deck Profesional Santa Muerte",
+        "description": "Tabla de maple 7 capas con impresión de Santa Muerte, ideal para street y rampa",
+        "precio": 79990,
+        "stock": 15,
+        "img": "/img/deck-santa-muerte.jpg"
+    },
+    {   
+        "id": 22,
+        "title": "Kit de Pigmentos Color Neón",
+        "description": "Set de 6 colores fluorescentes para tatuajes, brillan bajo luz UV",
+        "precio": 59990,
+        "stock": 25,
+        "img": "/img/pigmentos-neon.jpg"
+    },
+    {   
+        "id": 23,
+        "title": "Skateboard Minimalista Snake",
+        "description": "Tabla con diseño de serpiente en blanco y negro, acabado mate antideslizante",
+        "precio": 109990,
+        "stock": 8,
+        "img": "/img/skate-snake.jpg"
+    },
+    {   
+        "id": 24,
+        "title": "Maquina de Tatuar Coil",
+        "description": "Máquina de bobinas tradicional, ideal para lineado grueso y sombreado pesado",
+        "precio": 129990,
+        "stock": 6,
+        "img": "/img/maquina-coil.jpg"
+    },
+    {   
+        "id": 25,
+        "title": "Ruedas de Humo 54mm",
+        "description": "Ruedas color humo transparente, dureza 101a, para superficies lisas",
+        "precio": 39990,
+        "stock": 22,
+        "img": "/img/ruedas-humo.jpg"
+    },
+    {   
+        "id": 26,
+        "title": "Kit de Líneas para Tattoo",
+        "description": "Set de 30 agujas para lineado, calibres 3, 5, 7, 9, 11 y 14",
+        "precio": 24990,
+        "stock": 40,
+        "img": "/img/kit-lineas.jpg"
+    },
+    {   
+        "id": 27,
+        "title": "Complete Skate Panther",
+        "description": "Tabla completa con diseño de pantera negra, rodamientos ABEC 7",
+        "precio": 119990,
+        "stock": 10,
+        "img": "/img/skate-panther.jpg"
+    },
+    {   
+        "id": 28,
+        "title": "Set de Sombras Tattoo",
+        "description": "Agujas para sombreado y degradado, pack de 50 unidades estériles",
+        "precio": 28990,
+        "stock": 35,
+        "img": "/img/set-sombras.jpg"
+    },
+    {   
+        "id": 29,
+        "title": "Grip Tape Camo",
+        "description": "Lija color camuflaje militar, antideslizante y resistente a la humedad",
+        "precio": 17990,
+        "stock": 18,
+        "img": "/img/grip-camo.jpg"
+    },
+    {   
+        "id": 30,
+        "title": "Tinta Blanca Premium",
+        "description": "Tinta blanca de alta cobertura para tatuajes, pigmento denso y duradero",
+        "precio": 29990,
+        "stock": 30,
+        "img": "/img/tinta-blanca.jpg"
+    },
+    {   
+        "id": 31,
+        "title": "Longboard Pincho 40 pulgadas",
+        "description": "Longboard estilo pincho, ideal para cruising, ruedas de 70mm",
+        "precio": 189990,
+        "stock": 5,
+        "img": "/img/longboard-pincho.jpg"
+    },
+    {   
+        "id": 32,
+        "title": "Caja de Fundas para Máquina",
+        "description": "Protectores desechables para máquinas de tatuar, pack de 100 unidades",
+        "precio": 14990,
+        "stock": 50,
+        "img": "/img/fundas-maquina.jpg"
+    },
+    {   
+        "id": 33,
+        "title": "Skateboard Rose Skull",
+        "description": "Tabla con diseño de calavera rodeada de rosas, colores vibrantes",
+        "precio": 94990,
+        "stock": 12,
+        "img": "/img/skate-rose-skull.jpg"
+    },
+    {   
+        "id": 34,
+        "title": "Gel Transferidor Stencil",
+        "description": "Gel de alta calidad para transferir stencil a la piel, frasco 250ml",
+        "precio": 18990,
+        "stock": 45,
+        "img": "/img/gel-stencil.jpg"
+    },
+    {   
+        "id": 35,
+        "title": "Truck Titanium Negro",
+        "description": "Ejes de titanio color negro, livianos y resistentes, altura baja",
+        "precio": 69990,
+        "stock": 14,
+        "img": "/img/truck-titanium.jpg"
+    },
+    {   
+        "id": 36,
+        "title": "Set de Mangos para Agujas",
+        "description": "Mangos desechables de aluminio para tatuajes, pack de 20 unidades",
+        "precio": 34990,
+        "stock": 28,
+        "img": "/img/mangos-agujas.jpg"
+    },
+    {   
+        "id": 37,
+        "title": "Skateboard Mini Cruiser",
+        "description": "Tabla pequeña para desplazamiento urbano, tamaño 22 pulgadas",
+        "precio": 79990,
+        "stock": 20,
+        "img": "/img/mini-cruiser.jpg"
+    },
+    {   
+        "id": 38,
+        "title": "Cinta para Emprolijar",
+        "description": "Cinta adhesiva para emprolijar bordes de tatuajes, pack de 10 rollos",
+        "precio": 9990,
+        "stock": 60,
+        "img": "/img/cinta-emprolijar.jpg"
+    },
+    {   
+        "id": 39,
+        "title": "Wheels Glow Dark 55mm",
+        "description": "Ruedas que brillan en la oscuridad, dureza 78a, ideales para noche",
+        "precio": 49990,
+        "stock": 16,
+        "img": "/img/ruedas-glow.jpg"
+    },
+    {   
+        "id": 40,
+        "title": "Tatuajes Temporales Florales",
+        "description": "Pack de 50 tatuajes temporales estilo floral y mandalas, duran 5-7 días",
+        "precio": 12990,
+        "stock": 100,
+        "img": "/img/tattoos-temporales.jpg"
     }
-] 
+]

@@ -8,10 +8,17 @@ function ItemDetail({product}){
         <p>{product.description}</p>
         <ItemCount stock ={product.stock}/>
         <span>${product.precio} COP</span>
-        <button>
+        <div className="itemDetail-buttons">
+            <button>
             <ShoppingBasket />
             Carrito
         </button>
+        <button>
+            <ShoppingBasket />
+            Detalle
+        </button>
+        </div>
+        
         </div>
     )
 }

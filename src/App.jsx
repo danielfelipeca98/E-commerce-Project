@@ -1,12 +1,19 @@
 import './App.css'
-import Container from './components/Container'
+import Container from './Pages/Container'
+import { BrowserRouter,Routes,Route } from 'react-router'
+
 
 function App() {
   
 
   return (
     <>
-      <Container/>
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Container/>}/>
+          
+      </Routes>
+      </BrowserRouter>
       
     </>
   )
