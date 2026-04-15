@@ -2,6 +2,7 @@
     {   
         "id": 1,
         "title": "Skateboard Completa Dragon",
+        "categoria": "skate",
         "description": "Tabla de maple canadiense con diseño de dragón tribal, ejes de aluminio y ruedas de 52mm",
         "precio": 89990,
         "stock": 12,
@@ -10,6 +11,7 @@
     {   
         "id": 2,
         "title": "Tinta para Tatuaje Negro Intenso",
+        "categoria": "tattoo",
         "description": "Tinta negra premium para tatuajes, pigmentación duradera y alta calidad profesional",
         "precio": 24990,
         "stock": 45,
@@ -18,6 +20,7 @@
     {   
         "id": 3,
         "title": "Grip Tape Skull",
+        "categoria": "skate",
         "description": "Lija para skate con diseño de calavera, antideslizante y resistente al agua",
         "precio": 15990,
         "stock": 28,
@@ -26,6 +29,7 @@
     {   
         "id": 4,
         "title": "Maquina de Tatuar Rotary",
+        "categoria": "tattoo",
         "description": "Máquina rotativa profesional, silenciosa y precisa para lineas y sombreado",
         "precio": 149990,
         "stock": 8,
@@ -34,6 +38,7 @@
     {   
         "id": 5,
         "title": "Truck Independiente",
+        "categoria": "skate",
         "description": "Ejes de aluminio fundido, altura estándar, ideal para calle y rampa",
         "precio": 49990,
         "stock": 20,
@@ -42,6 +47,7 @@
     {   
         "id": 6,
         "title": "Set de Agujas Tattoo",
+        "categoria": "tattoo",
         "description": "Kit de 50 agujas estériles, tamaños del 3 al 14, empaque individual",
         "precio": 19990,
         "stock": 35,
@@ -50,6 +56,7 @@
     {   
         "id": 7,
         "title": "Ruedas Street 52mm",
+        "categoria": "skate",
         "description": "Ruedas duras 99a ideales para street, colores neón con diseño de llama",
         "precio": 34990,
         "stock": 18,
@@ -58,6 +65,7 @@
     {   
         "id": 8,
         "title": "Pintura Corporal UV",
+        "categoria": "tattoo",
         "description": "Pintura fluorescente para tatuajes temporales, efecto neón bajo luz negra",
         "precio": 12990,
         "stock": 40,
@@ -66,6 +74,7 @@
     {   
         "id": 9,
         "title": "Casco Skate Clásico",
+        "categoria": "skate",
         "description": "Casco resistente a impactos, tallas ajustable, diseño negro mate",
         "precio": 59990,
         "stock": 15,
@@ -74,6 +83,7 @@
     {   
         "id": 10,
         "title": "Kit de Stencil Tattoo",
+        "categoria": "tattoo",
         "description": "Papel hectográfico y gel transferidor para stencil, incluye 20 hojas",
         "precio": 15990,
         "stock": 25,
@@ -82,6 +92,7 @@
     {   
         "id": 11,
         "title": "Rodilleras Profesionales",
+        "categoria": "skate",
         "description": "Protección de espuma y plástico duro, velcro ajustable para skate agresivo",
         "precio": 39990,
         "stock": 22,
@@ -90,6 +101,7 @@
     {   
         "id": 12,
         "title": "Cremas para Tatuajes",
+        "categoria": "tattoo",
         "description": "Set de crema hidratante y protector solar especial para tatuajes recientes",
         "precio": 18990,
         "stock": 30,
@@ -98,6 +110,7 @@
     {   
         "id": 13,
         "title": "Longboard Drop Through",
+        "categoria": "skate",
         "description": "Tabla longboard de bambú, ideal para cruising y downhill",
         "precio": 159990,
         "stock": 7,
@@ -106,6 +119,7 @@
     {   
         "id": 14,
         "title": "Fuente de Poder Tattoo",
+        "categoria": "tattoo",
         "description": "Fuente regulable para máquinas de tatuar, display digital y clip cord",
         "precio": 89990,
         "stock": 10,
@@ -114,6 +128,7 @@
     {   
         "id": 15,
         "title": "Tool Kit Skate",
+        "categoria": "skate",
         "description": "Herramienta multiusos para ajustar ejes y ruedas, incluye lija de repuesto",
         "precio": 12990,
         "stock": 50,
@@ -122,6 +137,7 @@
     {   
         "id": 16,
         "title": "Guantes de Tatuaje",
+        "categoria": "tattoo",
         "description": "Caja con 100 guantes de nitrilo negro, talla M y L, sin polvo",
         "precio": 24990,
         "stock": 60,
@@ -130,6 +146,7 @@
     {   
         "id": 17,
         "title": "Zapatillas Skate Pro",
+        "categoria": "skate",
         "description": "Zapatillas de lona reforzada, suela de goma antideslizante, diseño urbano",
         "precio": 69990,
         "stock": 14,
@@ -138,6 +155,7 @@
     {   
         "id": 18,
         "title": "Set de Fundas Tattoo",
+        "categoria": "tattoo",
         "description": "Protectores desechables para maquina, grips y clip cord, pack de 50",
         "precio": 9990,
         "stock": 42,
@@ -146,6 +164,7 @@
     {   
         "id": 19,
         "title": "Mochila para Skate",
+        "categoria": "skate",
         "description": "Mochila resistente con correas para sujetar la tabla, bolsillos acolchados",
         "precio": 45990,
         "stock": 11,
@@ -154,6 +173,7 @@
     {   
         "id": 20,
         "title": "Poster Flash Tattoo",
+        "categoria": "tattoo",
         "description": "Póster con diseños de tatuajes clásicos americanos y tradicionales, 50x70cm",
         "precio": 14990,
         "stock": 33,
@@ -162,6 +182,7 @@
     {   
         "id": 21,
         "title": "Deck Profesional Santa Muerte",
+        "categoria": "skate",
         "description": "Tabla de maple 7 capas con impresión de Santa Muerte, ideal para street y rampa",
         "precio": 79990,
         "stock": 15,
@@ -170,6 +191,7 @@
     {   
         "id": 22,
         "title": "Kit de Pigmentos Color Neón",
+        "categoria": "tattoo",
         "description": "Set de 6 colores fluorescentes para tatuajes, brillan bajo luz UV",
         "precio": 59990,
         "stock": 25,
@@ -178,6 +200,7 @@
     {   
         "id": 23,
         "title": "Skateboard Minimalista Snake",
+        "categoria": "skate",
         "description": "Tabla con diseño de serpiente en blanco y negro, acabado mate antideslizante",
         "precio": 109990,
         "stock": 8,
@@ -186,6 +209,7 @@
     {   
         "id": 24,
         "title": "Maquina de Tatuar Coil",
+        "categoria": "tattoo",
         "description": "Máquina de bobinas tradicional, ideal para lineado grueso y sombreado pesado",
         "precio": 129990,
         "stock": 6,
@@ -194,6 +218,7 @@
     {   
         "id": 25,
         "title": "Ruedas de Humo 54mm",
+        "categoria": "skate",
         "description": "Ruedas color humo transparente, dureza 101a, para superficies lisas",
         "precio": 39990,
         "stock": 22,
@@ -202,6 +227,7 @@
     {   
         "id": 26,
         "title": "Kit de Líneas para Tattoo",
+        "categoria": "tattoo",
         "description": "Set de 30 agujas para lineado, calibres 3, 5, 7, 9, 11 y 14",
         "precio": 24990,
         "stock": 40,
@@ -210,6 +236,7 @@
     {   
         "id": 27,
         "title": "Complete Skate Panther",
+        "categoria": "skate",
         "description": "Tabla completa con diseño de pantera negra, rodamientos ABEC 7",
         "precio": 119990,
         "stock": 10,
@@ -218,6 +245,7 @@
     {   
         "id": 28,
         "title": "Set de Sombras Tattoo",
+        "categoria": "tattoo",
         "description": "Agujas para sombreado y degradado, pack de 50 unidades estériles",
         "precio": 28990,
         "stock": 35,
@@ -226,6 +254,7 @@
     {   
         "id": 29,
         "title": "Grip Tape Camo",
+        "categoria": "skate",
         "description": "Lija color camuflaje militar, antideslizante y resistente a la humedad",
         "precio": 17990,
         "stock": 18,
@@ -234,6 +263,7 @@
     {   
         "id": 30,
         "title": "Tinta Blanca Premium",
+        "categoria": "tattoo",
         "description": "Tinta blanca de alta cobertura para tatuajes, pigmento denso y duradero",
         "precio": 29990,
         "stock": 30,
@@ -242,6 +272,7 @@
     {   
         "id": 31,
         "title": "Longboard Pincho 40 pulgadas",
+        "categoria": "skate",
         "description": "Longboard estilo pincho, ideal para cruising, ruedas de 70mm",
         "precio": 189990,
         "stock": 5,
@@ -250,6 +281,7 @@
     {   
         "id": 32,
         "title": "Caja de Fundas para Máquina",
+        "categoria": "tattoo",
         "description": "Protectores desechables para máquinas de tatuar, pack de 100 unidades",
         "precio": 14990,
         "stock": 50,
@@ -258,6 +290,7 @@
     {   
         "id": 33,
         "title": "Skateboard Rose Skull",
+        "categoria": "skate",
         "description": "Tabla con diseño de calavera rodeada de rosas, colores vibrantes",
         "precio": 94990,
         "stock": 12,
@@ -266,6 +299,7 @@
     {   
         "id": 34,
         "title": "Gel Transferidor Stencil",
+        "categoria": "tattoo",
         "description": "Gel de alta calidad para transferir stencil a la piel, frasco 250ml",
         "precio": 18990,
         "stock": 45,
@@ -274,6 +308,7 @@
     {   
         "id": 35,
         "title": "Truck Titanium Negro",
+        "categoria": "skate",
         "description": "Ejes de titanio color negro, livianos y resistentes, altura baja",
         "precio": 69990,
         "stock": 14,
@@ -282,6 +317,7 @@
     {   
         "id": 36,
         "title": "Set de Mangos para Agujas",
+        "categoria": "tattoo",
         "description": "Mangos desechables de aluminio para tatuajes, pack de 20 unidades",
         "precio": 34990,
         "stock": 28,
@@ -290,6 +326,7 @@
     {   
         "id": 37,
         "title": "Skateboard Mini Cruiser",
+        "categoria": "skate",
         "description": "Tabla pequeña para desplazamiento urbano, tamaño 22 pulgadas",
         "precio": 79990,
         "stock": 20,
@@ -298,6 +335,7 @@
     {   
         "id": 38,
         "title": "Cinta para Emprolijar",
+        "categoria": "tattoo",
         "description": "Cinta adhesiva para emprolijar bordes de tatuajes, pack de 10 rollos",
         "precio": 9990,
         "stock": 60,
@@ -306,6 +344,7 @@
     {   
         "id": 39,
         "title": "Wheels Glow Dark 55mm",
+        "categoria": "skate",
         "description": "Ruedas que brillan en la oscuridad, dureza 78a, ideales para noche",
         "precio": 49990,
         "stock": 16,
@@ -314,6 +353,7 @@
     {   
         "id": 40,
         "title": "Tatuajes Temporales Florales",
+        "categoria": "tattoo",
         "description": "Pack de 50 tatuajes temporales estilo floral y mandalas, duran 5-7 días",
         "precio": 12990,
         "stock": 100,
