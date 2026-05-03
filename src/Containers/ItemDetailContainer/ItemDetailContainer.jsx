@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import { getItemById}  from '../../firebase';
 import ItemDetail from '../../components/ItemDetail/ItemDetail';
 
 function ItemDetailContainer() {
@@ -8,18 +9,19 @@ function ItemDetailContainer() {
     const { id } = useParams();
 
     useEffect(() => {
-        (async () => {
+       const fetchProduct = async () => {
             try {
-                const response = await fetch("/products.json");
-                const data = await response.json();
-                const foundProduct = data.find(p => p.id === parseInt(id));
-                setProduct(foundProduct);
+               setLoading(true);
+                const productData = await getItemById(id);
+                setProduct(productData);
                 setLoading(false);
             } catch (error) {
-                console.log(error);
+                console.log("Error cargando producto:", error);
                 setLoading(false);
             }
-        })();
+        };
+        
+        fetchProduct();
     }, [id]);
 
     if (loading) {
@@ -30,7 +32,7 @@ function ItemDetailContainer() {
         return <h2 style={{ color: "white", textAlign: "center" }}>Producto no encontrado</h2>;
     }
 
-    return <ItemDetail product={product} />;
+    return <ItemDetail product={product} />; 
 }
 
 export default ItemDetailContainer;

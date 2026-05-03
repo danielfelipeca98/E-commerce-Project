@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import ItemList from '../../components/ItemList/ItemList';  // Solo este import
+import ItemList from '../../components/ItemList/ItemList';  
+import { getItems}  from '../../firebase'
 import './ItemListContainer.css'
 
 
@@ -14,22 +15,24 @@ function ItemListContainer(props) {
             if (categoria === "tattoo") saludo = "Productos de Tattoo";
 
     useEffect(() => {
-        (async () => {
-            try {
-                const response = await fetch("/products.json");  // ← Corregido
-                const data = await response.json()
-                let productFilter = data;
-                if (categoria) {
-                    productFilter = data.filter(producto => producto.categoria === categoria);
+        const fetchProducts = async()=>{
+            try{
+                setLoading(true);
+                const productsData = await getItems();
+                let productFilter = productsData;
+                if (categoria){
+                    productFilter= productsData.filter(
+                        producto => producto.categoria===categoria
+                    );
                 }
-
                 setProducts(productFilter);
-                setLoading(false);  // ← Corregido
-            } catch (error) {
-                console.log(error)
-                setLoading(false);  // ← Agrega esto también
+                setLoading(false);
+            }catch(error){
+                console.log("error cargando productos:",error);
+                setLoading(false);
             }
-        })()
+        };
+        fetchProducts();
     }, [categoria])
 
     if (loading) {

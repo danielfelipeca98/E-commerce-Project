@@ -1,16 +1,40 @@
-# React + Vite
+# Skate & Tattoo E-commerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
+E-commerce de productos de skate y tatuajes desarrollado con React y Firebase. 
+Los usuarios pueden explorar productos por categorías, ver detalles, 
+agregar al carrito, gestionar cantidades y finalizar la compra con un 
+formulario de checkout que guarda la orden en Firestore.
 
-Currently, two official plugins are available:
+## Tecnologías utilizadas
+- React 18
+- React Router DOM (navegación)
+- Context API (estado del carrito)
+- Firebase / Firestore (base de datos)
+- CSS personalizado (estilo skate/tattoo)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Características
+- Listado de productos desde Firebase
+- Filtrado por categorías (Skate / Tattoo)
+- Detalle de producto con contador de unidades
+- Carrito de compras con contexto global
+- Badge en el ícono del carrito con total de unidades
+- Checkout con validación de formulario
+- Generación de orden en Firestore
 
-## React Compiler
+## Instalación
+1. Clona el repositorio:
+   git clone https://github.com/tu-usuario/ecommerce-skate-tattoo.git
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. Instala las dependencias:
+   npm install
 
-## Expanding the ESLint configuration
+3. Configura Firebase:
+   - Crea un archivo `.env` en la raíz
+   - Agrega tus credenciales de Firebase
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. Inicia el servidor de desarrollo:
+   npm run dev
+
+##  Autor
+**Daniel Felipe Castro** - https://github.com/danielfelipeca98

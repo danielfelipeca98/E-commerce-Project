@@ -1,93 +1,95 @@
-.navbar {
-  background: linear-gradient(135deg, #ff3300 0%, #ff6600 100%);
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+/* === RESET Y BASE === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.nav-logo {
-  display: flex;
-  align-items: center;
-  width: auto;
-  min-width: 100px;
+/* === NAVBAR === */
+.navbar {
+    background: linear-gradient(135deg, #ff3300 0%, #ff6600 100%);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* === LOGO === */
+.nav-logo a {
+    display: inline-block;
+    text-decoration: none;
 }
 
 .nav-logo img {
-  width: 200px;
-  height: auto;
-  transition: transform 0.3s ease;
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
 }
 
 .nav-logo img:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
+/* === LINKS DEL NAVBAR === */
 .nav-links {
-  display: flex;
-  list-style: none;
-  gap: 2rem;
-  margin: 0;
-  padding: 0;
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
 }
 
-.nav-link {
-  color: white;
-  font-size: 1.1rem;
-  font-weight: 500;
-  cursor: pointer;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-  position: relative;
-}
-
-.nav-link:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  transform: translateY(-2px);
-}
-
-.nav-link::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 0;
-  height: 2px;
-  background-color: white;
-  transition: width 0.3s ease;
-}
-
-.nav-link:hover::after {
-  width: 80%;
-}
-
-/* ===== ESTILOS NUEVOS PARA LOS LINKS ===== */
 .nav-link a {
     color: white;
     text-decoration: none;
-    display: block;
-    width: 100%;
-    height: 100%;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    display: inline-block;
 }
 
 .nav-link a:hover {
-    color: white;
-}
-/* Quitar cuadro azul al hacer clic en el logo */
-.nav-logo a {
-    display: inline-block;
-    outline: none;
-    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
 }
 
-.nav-logo a:focus,
-.nav-logo a:visited,
-.nav-logo a:active {
-    outline: none;
+/* === CARRITO WIDGET === */
+.cart-widget {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+.cart-widget svg {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.3s ease;
+}
+
+.cart-widget:hover svg {
+    transform: scale(1.1);
+    color: #ffd700;
+}
+
+.cart-badge {
+    position: absolute;
+    top: -8px;
+    right: -12px;
+    background-color: #ff3300;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 11px;
+    font-weight: bold;
+    min-width: 18px;
+    text-align: center;
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
 }
