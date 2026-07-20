@@ -1,7 +1,7 @@
 import CartWidget from "../CartWidget/CartWidget";
 import './Navbar.css'
 import { Link } from "react-router-dom";
-import logo from '/img/logo.png';
+import logo from './img/logo.png';
 
 function Navbar() {
     return (
@@ -9,7 +9,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="nav-logo">
                     <Link to="/">
-                    <img src={logo} alt="Imagen Logo" /> 
+                   <img src="/img/Logo.png" alt="Logo" />
                 </Link>
 
                 </div>
