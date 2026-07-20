@@ -9,7 +9,9 @@ formulario de checkout que guarda la orden en Firestore.
 ## Demo en producción
  **[Ver aplicación desplegada](https://skatetatto-project.onrender.com)**
 
- ## Estructura general
+## Estructura del proyecto
+
+```plaintext
 e-commerce-project/
 ├── public/
 │   └── img/
@@ -58,7 +60,7 @@ e-commerce-project/
 ├── vite.config.js
 ├── eslint.config.js
 └── README.md
-
+```
 ## Rutas disponibles
 
 | Ruta | Descripción |
